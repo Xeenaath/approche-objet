@@ -13,5 +13,4 @@ public class ConversionNombre {
 		int max = Integer.max(a, b);
 		System.out.println(max);
 	}
-
 }
