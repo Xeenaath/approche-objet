@@ -13,7 +13,7 @@ public class Personne {
 	}
 	
 	public void afficheMAJ() {		
-		System.out.println((this.nom + " " + this.prenom).toUpperCase());
+		System.out.println((this.nom).toUpperCase() + " " + this.prenom);
 	}
 	
 	public void setNom(String nom) {
