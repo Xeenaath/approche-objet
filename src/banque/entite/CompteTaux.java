@@ -1,4 +1,4 @@
-package fr.diginamic.banque.entites;
+package banque.entite;
 
 public class CompteTaux extends Compte{
 	

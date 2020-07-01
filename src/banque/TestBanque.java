@@ -1,7 +1,7 @@
 package banque;
 
-import fr.diginamic.banque.entites.Compte;
-import fr.diginamic.banque.entites.CompteTaux;
+import banque.entite.Compte;
+import banque.entite.CompteTaux;
 
 public class TestBanque {
 
