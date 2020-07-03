@@ -39,11 +39,7 @@ public class TestTri {
 		System.out.println("");
 		System.out.println("comparatorHabitant :");
 		Collections.sort(listeVilles, new ComparatorHabitant());
-		System.out.println(listeVilles);
-
-		
-		
-		
+		System.out.println(listeVilles);	
 	}
 	
 

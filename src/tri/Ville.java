@@ -2,7 +2,7 @@ package tri;
 
 public class Ville implements Comparable<Ville>{
 	String nom;
-	int nbHabitants;
+	Integer nbHabitants;
 	
 	public Ville(String nom, int nbHabitants) {
 		this.nom = nom;
@@ -20,13 +20,14 @@ public class Ville implements Comparable<Ville>{
 	
 	@Override
 	public int compareTo(Ville autreVille) {
-		if (this.nbHabitants > autreVille.getNbHabitants()) {
-			return 1;
-		}
-		if (this.nbHabitants < autreVille.getNbHabitants()) {
-			return -1;
-		}
-		return 0;
+		return this.getNbHabitants().compareTo(autreVille.getNbHabitants());
+//		if (this.nbHabitants > autreVille.getNbHabitants()) {
+//			return 1;
+//		}
+//		if (this.nbHabitants < autreVille.getNbHabitants()) {
+//			return -1;
+//		}
+//		return 0;
 	}
 	
 	
@@ -38,7 +39,7 @@ public class Ville implements Comparable<Ville>{
 		this.nom = nom;
 	}
 
-	public int getNbHabitants() {
+	public Integer getNbHabitants() {
 		return nbHabitants;
 	}
 
