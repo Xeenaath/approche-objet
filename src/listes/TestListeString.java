@@ -5,7 +5,8 @@ import java.util.*;
 public class TestListeString {
 
 	public static void main(String[] args) {
-		List<String> listeIm = Arrays.asList("Nice", "Carcassonne", "Narbonne", "Lyon", "Foix", "Pau", "Marseille", "Tarbes");
+		List<String> listeIm = Arrays.asList("Nice", "Carcassonne", "Narbonne", "Lyon", "Foix", "Pau", "Marseille",
+				"Tarbes");
 		ArrayList<String> listeString = new ArrayList<>();
 		listeString.addAll(listeIm);
 		System.out.println(listeString);
@@ -23,7 +24,7 @@ public class TestListeString {
 		Iterator<String> iterator = listeString.iterator();
 		while (iterator.hasNext()) {
 			String string = iterator.next();
-			if (string.charAt(0) == 'N') {
+			if (string.startsWith("N")) {
 				iterator.remove();
 			}
 		}
