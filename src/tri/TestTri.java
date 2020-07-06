@@ -26,10 +26,16 @@ public class TestTri {
 		listeVilles.add(ville7);
 		listeVilles.add(ville8);
 		System.out.println("avec compareTo() :");
+		System.out.println("");
+
 		System.out.println( "Non triée : " + listeVilles);
 		Collections.sort(listeVilles);
 		System.out.println("Triée : " + listeVilles);
+		
 		System.out.println("");
+		System.out.println("-------------------------------");
+		System.out.println("");
+
 		
 		System.out.println("avec compare() : ");
 		System.out.println("");
