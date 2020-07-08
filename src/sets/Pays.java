@@ -3,11 +3,21 @@ package sets;
 public class Pays {
 	String nom;
 	double nbHabitantsEnMillions, pibParHabitant;
+	
+	public Pays() {
+		
+	}
 
 	public Pays(String nom, double nbHabitantsEnMillions, double pibParHabitant) {
 		this.nom = nom;
 		this.nbHabitantsEnMillions = nbHabitantsEnMillions;
 		this.pibParHabitant = pibParHabitant;
+	}
+
+	@Override
+	public String toString() {
+		return "Pays [nom=" + nom + ", nbHabitantsEnMillions=" + nbHabitantsEnMillions + ", pibParHabitant="
+				+ pibParHabitant + "]";
 	}
 
 	public String getNom() {

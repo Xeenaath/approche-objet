@@ -23,9 +23,12 @@ public class TestSetString {
 				largestString = string;
 			}
 		}
+		System.out.println(setString);
 		System.out.println("Le pays avec le plus grand nom est " + largestString);
 		setString.remove(largestString);
 		System.out.println(setString);
+		
+		
 	}
 
 }
